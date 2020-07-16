@@ -7,7 +7,6 @@
 <body>
 <script>
     function Batterry () {
-
         this.setEnergy = function (energy) {
             this.energy = energy;
         };
@@ -31,7 +30,7 @@
             return this.battery.getEnergy();
         };
         this.light = function () {
-            if (this.status) {
+            if (this.status && this.getBatteryInfo() > 0) {
                 alert("Lighting");
             }
             else {
@@ -65,6 +64,98 @@
     document.write("Turn off </br>");
     flashLamp.turnOff();
     flashLamp.light();
+
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+    document.write("Turn on </br>");
+    flashLamp.turnOn();
+    flashLamp.light();
+    battery.decreaseEnergy();
+    document.write("Battery info:" + flashLamp.getBatteryInfo() + "</br>");
+
+    document.write("Turn off </br>");
+    flashLamp.turnOff();
+    flashLamp.light();
+
 </script>
 </body>
 </html>
